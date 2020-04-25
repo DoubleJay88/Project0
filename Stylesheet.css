@@ -35,7 +35,7 @@ body {
       font-size: large;
       }
 
-    .grid >div {
+    .container >div {
               font-family: Arial, sans-serif;
               font-size: 15px;
               font-style: oblique;
