@@ -10,11 +10,11 @@ body {
     font-size: 35px;
     color: Navy;
     background-color: none;
-    width: auto;
+    width: 50%;
     margin: 50px;
     padding: 5px;
     position: relative;
-    top: auto; left: auto;
+    top: 5px; left: auto;
     text-align: center;
     font-weight: bold;
     }
@@ -27,12 +27,12 @@ body {
       }
 
   nav {
-          width: auto;
-          margin: auto;
-          background-color: deepskyblue;
-          float: right;
-          position: relative;
-          }
+      width: auto;
+      margin: auto;
+      background-color: deepskyblue;
+      float: right;
+      position: relative;
+      }
 
       nav ul {
               margin: 0;
@@ -70,16 +70,12 @@ body {
             width: auto;
             }
 
-
       table {
             width: 40vh;
             border: 2px solid black;
             border-collapse: collapse;
             margin-left: auto;
             margin-right: auto;
-
-
-
             }
 
       th, td {
@@ -91,13 +87,10 @@ body {
               font-weight: 500px;
               }
 
-
-
     .leftside, .rightside {
                           padding:35px;
                           text-align: justify;
                           }
-
 
     .leftside {
               height: 75vh;
@@ -107,12 +100,10 @@ body {
               font-style: oblique;
               float: left;
               margin-left: 30px;
-
-
               }
 
     .rightside {
-              height: 60vh;
+              height: 50vh;
               width: 50vh;
               background: none;
               float: right;
