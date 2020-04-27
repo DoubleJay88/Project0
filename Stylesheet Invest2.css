@@ -7,51 +7,26 @@ body {
 
   h1 {
     font-family: Arial, sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     color: Navy;
     background-color: none;
     width: auto;
     margin: 50px;
     padding: 5px;
     position: relative;
-    top: 80px; left: auto;
+    top: auto; left: auto;
     text-align: center;
     font-weight: bold;
     }
 
   h2 {
       color: DarkBlue;
-      font-size: 35px;
+      font-size: 30px;
       text-align: center;
       font-weight: bold;
       }
 
-  h3 {
-      color: MidnightBlue;
-      text-align: center;
-      font-size: 25px;
-      font-weight: bold;
-      font-style: italic;
-      font-size: large;
-      }
-
-    .container >div {
-              font-family: Arial, sans-serif;
-              font-size: 15px;
-              font-style: oblique;
-              font-weight: 500px;
-              margin: 100px auto;
-              padding: 50px;
-              width: auto;
-              height: auto;
-              float: left;
-              position: relative;
-              top: 0px; left: 0px;
-              background-color: lavender;
-              text-align: justify;
-              }
-
-      nav {
+  nav {
           width: auto;
           margin: auto;
           background-color: deepskyblue;
@@ -85,3 +60,62 @@ body {
       nav a:hover {
                   color: magenta;
                   }
+
+        h3 {
+            color: DarkBlue;
+            font-size: 18px;
+            font-style: italic;
+            text-align: center;
+            font-weight: bold;
+            width: auto;
+            }
+
+
+      table {
+            width: 40vh;
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+
+
+
+            }
+
+      th, td {
+              border: 1px solid black;
+              padding: 5px;
+              text-align: center;
+              font-size: 15px;
+              font-style: italic;
+              font-weight: 500px;
+              }
+
+
+
+    .leftside, .rightside {
+                          padding:35px;
+                          text-align: justify;
+                          }
+
+
+    .leftside {
+              height: 75vh;
+              width: 110vh;
+              background: lavender;
+              font-size: 15px;
+              font-style: oblique;
+              float: left;
+              margin-left: 30px;
+
+
+              }
+
+    .rightside {
+              height: 60vh;
+              width: 50vh;
+              background: none;
+              float: right;
+              margin-left: 0px;
+              margin-right: 10px;
+              }
