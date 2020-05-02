@@ -1,26 +1,14 @@
 body {
-      background-image: url("../Images/Skyline1 Clouds.jpg");
+      background-image: url("../Images/Bluesky2.jpg");
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
       }
 
-      @media (min-width: 500px) {
-              h2::before {
-                          content: "Basic Ingredients & Methods";
-                          }
-                                }
-
-      @media (max-width: 499px) {
-              h2::before {
-                          content: "Basics";
-                          }
-                                }
-
   h1 {
     font-family: Arial, sans-serif;
-    font-size: 35px;
-    color: Navy;
+    font-size: 40px;
+    color: black;
     background-color: none;
     width: 50%;
     margin: 50px;
@@ -37,6 +25,15 @@ body {
       text-align: center;
       font-weight: bold;
       }
+
+  h3, h4 {
+          font-family: Arial, sans-serif;
+          color: Black;
+          font-size: 20px;
+          text-align: center;
+          font-weight: bold;
+          font-style: italic;
+          }
 
   nav {
       width: auto;
@@ -73,7 +70,7 @@ body {
                   color: magenta;
                   }
 
-        h3 {
+        h5 {
             color: DarkBlue;
             font-size: 18px;
             font-style: italic;
@@ -105,10 +102,9 @@ body {
                           }
 
     .leftside {
-              height: 75vh;
+              height: 80vh;
               width: 110vh;
-              background: lavender;
-              font-size: 15px;
+              background: lavender ;
               font-style: oblique;
               float: left;
               margin-left: 30px;
@@ -122,3 +118,33 @@ body {
               margin-left: 0px;
               margin-right: 10px;
               }
+
+    #top {
+          font-size: 17px;
+          font-style: italic;
+          font-stretch:  extra-expanded;
+
+          }
+
+    #middle, #bottom, #last {
+          font-size: 15px;
+          font-style: normal;
+          }
+
+
+    .name {
+          font-size: 15px;
+          color: solid black;
+          font-style: italic;
+          font-weight: bold;
+          }
+
+    section {
+              margin-top: 60px
+
+            }
+
+    ul li {
+            font-style: italic;
+            list-style-type: square;
+          }

@@ -1,3 +1,16 @@
+
+@media (min-width: 500px) {
+        h2::before {
+            content: "Stock Investing - Pleasure or Pain?";
+            }
+                          }
+
+@media (max-width: 499px) {
+        h2::before {
+            content: "Stock Investing";
+            }
+                          }
+
 body {
       background-image: url("../Images/Background Skyline.jpeg");
       background-size: cover;
